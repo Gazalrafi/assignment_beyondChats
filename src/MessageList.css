@@ -1,0 +1,53 @@
+.message-list-container {
+    height: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex:1;
+  }
+  
+  .message-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .message-item strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .message-input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .message-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .send-button {
+    padding: 10px 15px;
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #006bb3;
+  }
+  

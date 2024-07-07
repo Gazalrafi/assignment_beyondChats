@@ -8,8 +8,10 @@ In the project directory, you can run:
 
 ### `npm start`
 
+# Development mode
+
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://project-102b6.web.app](https://project-102b6.web.app) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -68,3 +70,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Features Implemented
+ 
+1.Implemented a robust search functionality for the chat list, enabling efficient and user-friendly navigation.
+2.Developed the capability to send messages seamlessly within the application.
+3.Enhanced the user experience with a dynamic theme feature, offering both Dark and Night modes for personalized interface preferences.

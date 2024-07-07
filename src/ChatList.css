@@ -1,0 +1,163 @@
+.chat-list-container {
+    height: 100vh;
+    background-color: #f5f5f5;
+    border-right: 1px solid #e0e0e0;
+    overflow-y: auto;
+  }
+li{
+   display: flex;
+   flex-direction: row;
+ 
+}
+  .chat-list-title {
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #e0e0e0;
+    color: #555555;
+  }
+  
+  .chat-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .chat-item {
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .chat-item:hover {
+    background-color: #44a8f9;
+  }
+  img{
+   
+    width:40px;
+    border-radius: 100%;
+   
+  }
+
+.search-input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: -3px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+  }
+  
+  .nav-item:hover {
+    background-color: #d0d0d0;
+  }
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+  }
+  
+  .hamburger-menu {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: none;
+    position: absolute;
+    top: 50px; 
+    left:20px;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px;
+  }
+  
+  .menu.open {
+    display: flex;
+    width:20vw;
+  }
+  
+  .menu-item {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: #4381f4;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .dark-mode {
+    background-color: #2c2c2c;
+    color: white;
+  }
+  
+ 
+  .dark-mode .chat-item {
+    border-color: #444;
+    color: white;
+  }
+  
+
+  .dark-mode .search-input {
+    background-color: #444;
+    color: white;
+  }
+  
+
+  .dark-mode .menu {
+    background-color: #333;
+    color: white;
+  }
+  
+
+  .dark-mode .menu-item {
+    color: white;
+  }
+  
+
+  .dark-mode .header {
+    background-color: #2c2c2c;
+    color: white;
+  }
+  
+ 
+  .dark-mode .chat-list-container {
+    background-color: #2c2c2c;
+    color: white;
+  }
+  
+  .dark-mode .chat-list {
+    background-color: #2c2c2c;
+  }
+  
+  .dark-mode img {
+    filter: brightness(0.8);
+  }
